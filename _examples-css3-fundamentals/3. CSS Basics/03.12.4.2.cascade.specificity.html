@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03.12.4.2.cascade.specificity.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+
+      /* element - least specific - specificity point/score= 1 */
+      p{
+        background-color: gray;
+        color: #fff;
+        padding: 5px;
+      }
+
+      /* class - little specific - specificity point/score= 10 */
+      .para-text {
+        color: #000;
+      }
+
+      /* id - more specific - specificity point/score= 100 */
+      #mainParaText {
+        color:#00f;
+      }
+
+      /* element + id - much more specific - specificity point/score= 101 */
+      p#mainParaText {
+        color:#0f0;
+      } 
+
+      /* !important - the supereme rule*/
+      p {
+        color:#f00 !important;
+      } 
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1>3.12.4 The cascade dependency factors</h1>
+
+    <p class="para-text" id="mainParaText" style="color:gold;">What selectors win out in the cascade depends on three factors (listed in order of weight — earlier ones will overrule later ones):</p>
+
+    <ol>
+      <li>Importance / !important</li>
+      <li>Specificity</li>
+      <li>Inheritance (Source order)</li>
+    </ol>
+
+    <h2>2 Specificity</h2>
+
+    <ul>
+      <li>Specificity is basically a measure of how specific a selector/rule is</li>
+      <li>If more conflicting CSS rules comes to the same element, than the browser follows some rules to determine which one is most specific selector to apply and wins out</li>
+      <li>`ID selectors` have an even higher specificity than class selectors and lowest is element selectors</li>
+      <li>Note: The only way to win against an ID selector is to use `!important` or using `inline styles`. The only way to win against an `!important` is to include another !important declaration</li>
+    </ul>
+    
+  </body>
+
+</html>

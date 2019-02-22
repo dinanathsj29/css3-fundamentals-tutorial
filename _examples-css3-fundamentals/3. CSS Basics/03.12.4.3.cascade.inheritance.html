@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03.12.4.3.cascade.inheritance.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        font-family: verdana;
+        color: #2617da;
+        margin: 10px;
+        padding: 10px;
+        font-style: italic;
+      }
+    
+      p {
+        background-color: gray;
+        color: #fff;
+        padding: 5px;
+      }
+
+      h1 {
+        color: #b50e0e;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1>3.12.4 The cascade dependency factors</h1>
+
+    <p class="para-text" id="mainParaText">What selectors win out in the cascade depends on three factors (listed in order of weight — earlier ones will overrule later ones):</p>
+
+    <ol>
+      <li>Importance / !important</li>
+      <li>Specificity</li>
+      <li>Inheritance (Source order)</li>
+    </ol>
+
+    <h2>3 Inheritance</h2>
+
+    <ul>
+      <li>Inheritance simply means using some properties from parent/container elements to child</li>
+      <li>The inherit keyword specifies that a property should inherit its value from its parent element</li>
+      <li>Latest/last rules applied will win over earlier rules</li>
+      <li>Styles are cumulative; so the final rendering of elements depends not only on selectors directly target the element but also any properties that might be inherited from parent/top level elements</li>
+      <li>Note: All child elements in documents inherits properties from CSS rules applied to body/parent/container elements</li>
+    </ul>
+    
+  </body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.16.reset.css.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      /* css reset styles goes here */
+      body, h1, h2, h3, h4, h5, h6, p, input,li {
+        margin:0px;
+        padding:0px;
+      }   
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2 class="sub-heading-text" id="subHeadingText">05.16. reset css</h2>
+        
+        <ul class="normalList">
+          <li>CSS Reset is a set of styles that nullify a browsers default style sheet</li>
+          <li>CSS Reset allows designers to avoid conflicts between their styles and browser default styles</li>
+          <li>Every browser has its own default `user agent stylesheet`, that it uses to make unstyled websites appear more beautiful/legible. (By default apply variable font-sizes to H1 to H6, certain amount of padding to almost every element, make links blue and visited links purple, give tables a certain amount of border and padding)</li>
+          <li>Using a CSS Reset, we can force every browser to have all its styles reset to null, thus avoiding cross-browser differences as much as possible</li>
+          <li>The goal of a reset style is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings etc.</li>
+        </ul>
+        
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

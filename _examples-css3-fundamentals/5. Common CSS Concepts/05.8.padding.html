@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.8.padding.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+      }
+
+      .normalList li:nth-child(odd) {
+        /* padding: 10px 20px 10px 20px; /* Top, Right, Bottom, Left */
+        /* padding: 10px 20px;  /* pair top-bottom & right-left */
+        padding: 15px; /* all sides equally */
+        background-color: bisque;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2>05.8. CSS box model: padding</h2>
+        
+        <ul class="normalList">
+          <li>Padding is the `breathing space inside an element border` which holds the content aways from edge/border and allows readibility</li>
+          <li>CSS Padding property is used to define the space between the element content and the element border</li>
+          <li>`Padding is inside` and Margin is outside</li>
+          <li>Padding can be defined either to Top, Right, Bottom, Left or to each side of an element</li>
+        </ul>
+
+        <h2>Box Model consists of properties like: Margins, Borders, Padding and content width, height (these properties make physical dimension of an element)</h2>
+         
+        <ol>
+          <li>Margin = Space outside/around an element</li>
+          <li>Border = Rectangular outline/border surrouding an element/box</li>
+          <li>Padding = Breathing space inside an element border</li>
+          <li>Total width of an element: left border + left padding + content width + right padding + right border</li>
+        </ol>
+
+        The following diagram demonstrates how the margin, padding, and border CSS properties determines how much space an element can take on a web page:
+        <p align="center">
+          <img src="../assets/images/box-model.png" alt="CSS Box Model" title="CSS Box Model" width="400" />
+        </p>
+
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

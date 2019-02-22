@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.3.color.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      .heading-text, h2 {
+        text-align: center;
+        text-decoration: overline;
+        text-transform: uppercase;
+        color: hsl(140, 50%, 60%); /* Hue=140 -> green color, Saturation=50% -> 50% green not full green, lightness=60% -> lighter shade of green*/
+      }
+
+      h2 {
+        color:rgba(0,155,0,0.5);
+      }
+
+      .normal-list {
+        letter-spacing: 4px;
+        word-spacing: 8px;
+        line-height: 30px;
+        background-color: wheat;
+        color:#000;
+        border-bottom: 5px solid #2f4f4f;
+        padding-bottom: 20px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+    <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+    <h2>05.3. color</h2>
+
+    <ul class="normal-list">
+      <li>Colors are pretty powerful way to express different feelings and emotions in our human life and play an important role while desinging UI or UX</li>
+      <li>Typically, `color` is used to set a color either for the foreground of an element (i.e., its text), for the background of the element,  or else affect the color of borders/decorative effects</li>
+      <li>The CSS `color` property defines the foreground color (text color), `background-color` property defines the background color of an element</li>
+      <li>Example: color, border-color, background-color</li>
+    </ul>
+    
+  </body>
+
+</html>

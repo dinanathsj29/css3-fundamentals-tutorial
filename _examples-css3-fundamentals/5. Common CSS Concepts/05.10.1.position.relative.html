@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.10.1.position.relative.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+      }
+
+      .relative-pos-box {
+        color: #fff;
+        background: #00c4cc;
+        padding: 10px;
+        width: 80%;
+        
+        position: relative;
+        left: 150px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2>05.10. Element Positioning</h2>
+        
+        <ul class="normalList">
+          <li>Positioning allows to take an element on the page and `control where and how it can be positioned`</li>
+          <li>The CSS `position property` is used to `set position` for an element</li>
+          <li>It is also used to place an element `behind another` and also useful for `scripted animation effect`</li>
+        </ul>
+
+        <h2>CSS positioning schemes</h2>
+        
+        <ol>
+          <li>Normal Flow</li>
+          <li>Element Floating</li>
+          <li>Absolute Positioning</li>
+        </ol>
+
+        <div class="relative-pos-box">
+          <h2>Relative Positioning </h2>
+          
+          <ol>
+            <li>Elements are still considered as part of normal document flow, but one can offset the elements from its normal position using top, right, bottom, or left offset values</li>
+            <li>Relative positioning changes the position of the HTML element `relative to where it normally` appears (`positioned relative to its normal position`)</li>
+            <li>Relative Positioning helps to nudge or re-position an element from its `current position/location`</li>
+          </ol>
+        </div>
+
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

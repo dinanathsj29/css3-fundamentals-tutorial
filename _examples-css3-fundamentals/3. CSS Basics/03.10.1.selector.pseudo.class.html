@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>03.10.1.selector.pseudo.class.html</title>
+
+    <!-- internal style -->
+    <style>
+    /* css selector: { property:value; } */
+      body {
+        background-color: #67b1b1;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+
+      .links-container a {
+        width: 10%;
+        background-color:#999;
+        padding: 5px;
+        margin: 10px;
+      }
+
+      .horizontal-menu a {
+        display: inline-block;
+      }
+
+      .vertical-menu a {
+        display: block;
+      }
+
+      .links-container a:link {
+        color: #000;
+      }
+
+      .links-container a:visited {
+        color: #666;
+      }
+
+      .links-container a:hover {
+        color: #fff;
+        font-weight: bold;
+        background-color: #008080;
+        border-bottom: 2px solid;
+      }
+
+      .links-container a:active {
+        color: #008080;
+        background-color: #fff;
+      }
+
+      .link-active {
+        text-decoration: none;
+        color: #008080 !important;
+        font-weight: bold;
+        border-bottom: 5px solid;
+        background-color: #fff !important;;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <h1 class="headingsLarge">3.3. Basic Selector types</h1>
+
+    <li>Selector allows us to tell the browser which element/tag on the page we want to style</li>
+    <li>CSS selectors are used to "target/find/select" HTML elements based on  element/tag name, id, class, attribute, and more</li>
+    <li>Selector may target: Single element, group of elements, .class, #id, any specific conditional element</li>
+    <li>Selectors are used to declare which of the markup elements a style applies to, Selector indicates the HTML element you want to style</li>
+
+    <h1 id="headingMain">3.10. pseudo class Selector</h1>
+    
+    <ul>
+      <li>pseudo means `not actually but having the appearance of; pretended; false or spurious;`</li>
+      <li>Pseudo class selectors are CSS selectors with a colon preceding them `:`</li>
+      <li>A CSS pseudo-class is a keyword added to a selector that specifies a `special state` of the selected element(s) like `hover, active, focus, visited, link`</li>
+      <li>Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree</li>
+      <li>a pseudo-class is basically a special state or specific characteristic of an element that can be targeted with CSS. A few common pseudo-classes are `:link, :visited, :hover, :active`</li>
+    </ul>
+    
+    <div class="links-container horizontal-menu">
+      <a class="link-active" href="#">Home</a> 
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <br /> <br />
+    
+    <div class="links-container vertical-menu">
+      <a class="link-active" href="#">Home</a> 
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+      
+  </body>
+
+</html>

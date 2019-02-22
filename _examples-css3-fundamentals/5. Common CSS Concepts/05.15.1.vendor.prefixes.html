@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.15.1.vendor.prefixes.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+      }
+
+      .heading-text {
+        padding: 10px;
+        border: 2px solid #c5760f;
+
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+
+        border-radius: 20px;
+      }
+
+      .sub-heading-text {
+        -webkit-text-shadow: 5px 5px 2px #c5760f;
+        -moz-text-shadow: 5px 5px 2px #c5760f;
+        -ms-text-shadow: 5px 5px 2px #c5760f;
+        -o-text-shadow: 5px 5px 2px #c5760f;
+
+        text-shadow: 5px 5px 2px #c5760f;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2 class="sub-heading-text" id="subHeadingText">5.15. CSS Vendor Prefixes (CSS Browser Prefixes)</h2>
+        
+        <ul class="normalList">
+          <li>Vendor Prefixes allows browsers manufacturers to add support for `proprietory features which are still in development`</li>
+          <li>Browser manufacturers have used browser specific `prefixes for experimental APIs`</li>
+          <li>Vendor Prefixes gives designer/developer an opportunity to use experimental/evolving features-properties</li>
+          <li>CSS vendor prefixes/CSS browser prefixes, are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers</li>
+          <li>Note: CSS vendor prefixes/CSS browser prefixes are used only for latest CSS3 properties which are not fully developed/supported by all browser</li>
+        </ul>
+        
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.9.border.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+      }
+
+      .border-style-ilst li {
+        font-weight: bold;
+        margin-top: 20px;
+        padding: 10px;
+      }
+
+      .border-style-ilst li:nth-child(1){
+        border: 2px solid brown;
+      }
+
+      .border-style-ilst li:nth-child(2){
+        border: 2px dashed brown;
+      }
+
+      .border-style-ilst li:nth-child(3){
+        border: 2px dotted brown;
+      }
+
+      .border-style-ilst li:nth-child(4){
+        border: 5px double brown;
+
+        /* border-color: brown;
+        border-style: double; */
+      }
+
+      .border-style-ilst li:nth-child(5){
+        /* border-style: ridge; */
+        border: 5px ridge brown;
+      }
+
+      .border-style-ilst li:nth-child(6){
+        /* border-style: groove; */
+        border: 5px groove brown;
+      }
+
+      .border-style-ilst li:nth-child(7){
+        border-color: brown;
+        border-style: solid dashed double dotted ;
+      }
+
+      .border-style-ilst li:nth-child(8){
+        border:2px solid brown;
+        border-radius: 15px;
+      }
+
+      .border-style-ilst li:nth-child(9){
+        padding: 20px;
+        border:2px solid brown;
+        border-radius: 100px 0px;
+        background-color: bisque;
+      }
+      
+      .colors-channel-logo, .colors-channel-logo div {
+        width: 100px;
+        height:100px;
+        border-radius: 100% 0%;
+        position: relative;
+      }
+
+      .colors-channel-logo {
+        background-color: #7d2792;
+      }
+
+      .colors-channel-logo div {
+        width: 80px;
+        height:80px;
+        background-color: #ea008a;
+        top: 20px;
+      }
+
+      .colors-channel-logo div  div{
+        width: 60px;
+        height:60px;
+        background-color: #f98900;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2>05.9. CSS box model: border</h2>
+        
+        <ul class="normalList">
+          <li>Border defines the `outside edge` of an element </li>
+          <li>Widely used to define/apply `decorative effects/visual seperation` to an element</li>
+          <li>Border of an element goes around the padding and content</li>
+          <li>Borders are defined with 3 properties: `border-width, border-style, border-color, border-radius`</li>
+          <li>Border can be defined either to Top, Right, Bottom, Left or to whole element </li>
+        </ul>
+
+        <h2>Box Model consists of properties like: Margins, Borders, Padding and content width, height (these properties make physical dimension of an element)</h2>
+         
+        <ol>
+          <li>Margin = Space outside/around an element</li>
+          <li>Border = Rectangular outline/border surrouding an element/box</li>
+          <li>Padding = Breathing space inside an element border</li>
+          <li>Total width of an element: left border + left padding + content width + right padding + right border</li>
+        </ol>
+
+        <ul class="border-style-ilst">
+          <li>border: solid</li>
+          <li>border: dashed</li>
+          <li>border: dotted</li>
+          <li>border: double</li>
+          <li>border: ridge</li>
+          <li>border: groove</li>
+          <li>border: border-style:multiple type border</li>
+          <li>border: border-radius: rounded corner</li>
+          <li>border: border-radius: rounded corner: design</li>
+        </ul>
+
+        <h3>Colors channel logo created with border-radius</h3>
+        <div class="colors-channel-logo">
+          <div>
+            <div></div>
+          </div>
+        </div> <br />
+
+        The following diagram demonstrates how the margin, padding, and border CSS properties determines how much space an element can take on a web page:
+        <p align="center">
+          <img src="../assets/images/box-model.png" alt="CSS Box Model" title="CSS Box Model" width="400" />
+        </p>
+
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

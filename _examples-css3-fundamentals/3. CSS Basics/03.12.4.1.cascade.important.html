@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03.12.4.1.cascade.important.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      .para-text {
+        background-color: gray;
+        border: none !important;
+      }
+
+      p {
+        background-color: blue;
+        color: white;
+        padding: 5px;
+        border: 2px dashed black;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1>3.12.4 The cascade dependency factors</h1>
+
+    <p class="para-text">What selectors win out in the cascade depends on three factors (listed in order of weight — earlier ones will overrule later ones):</p>
+
+    <ol>
+      <li>Importance / !important</li>
+      <li>Specificity</li>
+      <li>Inheritance (Source order)</li>
+    </ol>
+
+    <h2>1. Importance / !important</h2>
+
+    <ul>
+      <li>`!important` - One property/keyword to rule all!</li>
+      <li>In CSS, there is a special piece of syntax you can use to make sure that a certain declaration will always win over all others: `!important`</li>
+      <li>The `!important` rule is used for overriding the previously assigned CSS declarations OR to make current rule as a supereme rule </li>
+      <li>It is strongly recommend that you `never use !important`, unless you absolutely have to</li>
+    </ul>
+    
+  </body>
+
+</html>

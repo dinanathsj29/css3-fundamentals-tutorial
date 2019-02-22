@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03.11.3.inline.stylesheets.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      /*body{
+        background-color: #d3d3ff;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+      }
+
+      h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }*/
+    </style>
+    
+  </head>
+
+  <!-- inline style -->
+  <body style="background-color: #d3d3ff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;">
+
+    <!-- inline style -->
+    <h1 style=" font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;">3.11. Authoring options / Where and How to add CSS</h1>
+
+    <p>CSS is linked/added to HTML pages to format the document according to information in the style sheet. Styles can be added/written/located/inserted in 3 different ways (at 3 different places one can write css):</p>
+
+    <ol>
+      <li>External stylesheet (Separation of concern) [Using the link element, pointing to an external CSS file]</li>
+      <li>Internal stylesheet (Embedded stylesheet) [Using the style element in the head section of a document]</li>
+      <li>Inline stylesheet [Using the style attribute in any HTML start tag]</li>
+    </ol>
+
+    <h2>3. Inline stylesheet</h2>
+
+    <ul>
+      <li>We can write/apply style directly into an HTML element</li>
+      <li>Inline CSS is used to apply CSS on a single line or element </li>
+      <li>`style` attribute is used to write inline styles specific to an element `p style="color:blue;">Some Text /p`</li>
+      <li>`Please don't use this, unless you really have to! It is really a `bad practice and bad for maintenance` (you might have to update the same information multiple times per document)</li>
+      <li>Used in small non-scalable apps (kind of last moment patch/solution)</li>
+    </ul>
+    
+  </body>
+
+</html>

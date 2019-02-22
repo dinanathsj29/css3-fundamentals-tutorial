@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.5.background.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      ol li {
+        height: 100px;
+        font-weight: bold;
+        margin-top: 20px;
+        padding: 5px;
+        border: 2px solid brown;
+      }
+
+      ol li:nth-child(1) {
+        background-color: thistle;
+      }
+
+      ol li:nth-child(2) {
+        background-image: url("../assets/images/css3.png");
+        background-color: bisque;
+      }
+
+      ol li:nth-child(3) {
+        background-image: url("../assets/images/css3.png");
+        background-repeat: no-repeat; 
+        background-color: darkseagreen;
+      }
+
+      /* body {
+        background-image: url("../assets/images/css3.png");
+        background-attachment: fixed;
+      } */
+
+      ol li:nth-child(5) {
+        background-image: url("../assets/images/css3.png");
+        background-repeat: no-repeat;
+        background-color: wheat;
+        background-position: center -50px; /* horizontal X and vertical Y position*/
+      }
+
+      ol li:nth-child(6) {
+        background-image: url("../assets/images/css3.png");
+        background-repeat: no-repeat;
+        background-color: wheat;
+        background-position: center center; /* horizontal X and vertical Y position*/
+        background-size: contain;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2>05.5. Backgrounds</h2>
+
+        <ul class="normalList">
+          <li>CSS background properties are used to define background styles/effects for the elements</li>
+        </ul>
+
+        <h2>Background Properties</h2>
+        The CSS provide several properties for styling the background of an element, like: 
+        <ol>
+          <li>background-color</li>
+          <li>background-image</li>
+          <li>background-repeat</li>
+          <li>background-attachment <br />  uncomment and check body styles</li>
+          <li>background-position</li>
+          <li>background-position</li>
+        </ol>
+
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05.10.4.position.fixed.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-color: burlywood;
+        width: 80%;
+        padding: 20px;
+        border:5px solid #c5760f;
+        margin: 20px auto;
+
+        position: relative;
+      }
+
+      .fixed-pos-box {
+        color: #fff;
+        background: #00c4cc;
+        padding: 10px;
+        width: 50%;
+        
+        position: fixed;
+        right: 95px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+      <div class="sub-container">
+
+        <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
+
+        <p class="para-text" id="mainParaText">There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS. </p>
+
+        <h2>05.10. Element Positioning</h2>
+        
+        <ul class="normalList">
+          <li>Positioning allows to take an element on the page and `control where and how it can be positioned`</li>
+          <li>The CSS `position property` is used to `set position` for an element</li>
+          <li>It is also used to place an element `behind another` and also useful for `scripted animation effect`</li>
+        </ul>
+
+        <h2>CSS positioning schemes</h2>
+        
+        <ol>
+          <li>Normal Flow</li>
+          <li>Element Floating</li>
+          <li>Absolute Positioning</li>
+        </ol>
+
+        <h2 class="fixed-pos-box">Fixed Positioning 1 : </h2>
+        
+        <ol>
+          <li>The fixed positioning property helps to put the text fixed on the browser</li>
+          <li>Fixed Positioned elements are considered to be an Absolute Positioned elements itself but it always positioned relative to the `active viewport`</li>
+          <li>As Fixed Positioned elements are positioned relative to the `active viewport` scrollbar doesnt affects it</li>
+          <li>Fixed positioning is a subcategory of absolute positioning (difference is, a fixed positioned element is fixed with respect to the browser's viewport and does not move when scrolled)</li>
+        </ol>
+
+        <div>
+          <h2>Fixed Positioning 2 : </h2>
+          
+          <ol>
+            <li>The fixed positioning property helps to put the text fixed on the browser</li>
+            <li>Fixed Positioned elements are considered to be an Absolute Positioned elements itself but it always positioned relative to the `active viewport`</li>
+            <li>As Fixed Positioned elements are positioned relative to the `active viewport` scrollbar doesnt affects it</li>
+            <li>Fixed positioning is a subcategory of absolute positioning (difference is, a fixed positioned element is fixed with respect to the browser's viewport and does not move when scrolled)</li>
+          </ol>
+        </div>
+
+        <div>
+          <h2>Fixed Positioning 3 : </h2>
+          
+          <ol>
+            <li>The fixed positioning property helps to put the text fixed on the browser</li>
+            <li>Fixed Positioned elements are considered to be an Absolute Positioned elements itself but it always positioned relative to the `active viewport`</li>
+            <li>As Fixed Positioned elements are positioned relative to the `active viewport` scrollbar doesnt affects it</li>
+            <li>Fixed positioning is a subcategory of absolute positioning (difference is, a fixed positioned element is fixed with respect to the browser's viewport and does not move when scrolled)</li>
+          </ol>
+        </div>
+
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

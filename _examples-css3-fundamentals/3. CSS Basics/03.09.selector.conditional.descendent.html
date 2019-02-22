@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03.09.selector.conditional.descendent.html</title>
+
+    <!-- internal style -->
+    <style>
+      /* css selector: { property:value; } */
+      ol .highlightRed{ 
+        color: purple;
+        letter-spacing: 3px;
+        line-height: 36px;
+        word-spacing: 5px;
+        text-transform: capitalize;
+        font-family: arial;
+        background-color:#66a7a7;
+      }
+
+      span {
+        font-weight: bold;
+        color: purple;
+        font-size: 20px;
+      }
+
+      p.introParagraph span {
+        color: red;
+        background-color:#66a7a7;
+        padding: 0px 10px;
+        
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1 class="headingsLarge">3.3. Basic Selector types</h1>
+
+    <div>
+      <h1 class="headingsLarge">3.3. Basic Selector types</h1>
+    </div>
+
+    <ol>
+      <li class="highlightRed">Selector allows us to tell the browser which element/tag on the page we want to style</li>
+      <li class="highlightGreen">CSS selectors are used to <span>"target/find/select"</span> HTML elements based on  element/tag name, id, class, attribute, and more</li>
+      <li class="highlightRed">Selector may target: Single element, group of elements, .class, #id, any specific conditional element</li>
+      <li class="highlightGreen">Selectors are used to declare which of the markup elements a style applies to, Selector indicates the HTML element you want to style</li>
+    </ol>
+
+    <p>Selector allows us to tell the browser which element/tag on the page we want to style.
+    - CSS selectors are used to <span>"target/find/select"</span> HTML elements based on  element/tag name, id, class, attribute, and more.
+    - Selector may target: Single element, group of elements, .class, #id, any specific conditional element.
+    - Selectors are used to declare which of the markup elements a style applies to, Selector indicates the HTML element you want to style.
+    </p>
+
+    <h1 id="headingMain">3.9. conditional descendent Selector</h1>
+    
+    <ul>
+      <li class="highlightRed">Highly specific selector that target elements based on their location within other elements </li>
+      <li class="highlightGreen">You can use this selector when you need to select an element that is the descendant/inside of another element</li>
+      <li class="highlightRed">You want to apply a style rule to a particular element only when it lies inside a particular element</li>
+      <li class="highlightGreen">White space is used to denote hierarchy of element (parent nested child)</li>
+    </ul>
+
+    <p class="introParagraph">Highly <span>specific selector</span> that target elements based on their location within other elements . You can use this selector when you need to select an element that is the <span>descendant/inside</span> of another element. You want to apply a style rule to a particular element only when it lies <span>inside a particular element</span>.
+    </p>
+
+  </body>
+
+</html>

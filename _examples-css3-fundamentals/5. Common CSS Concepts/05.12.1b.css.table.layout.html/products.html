@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    
+  </head>
+
+  <body>
+    <h1>HTML CSS Table based layout</h1>
+
+    <!-- create an html layout with tables (NOT advisale, its better to use div or html5 semantic tags with css / CSS grid / Css flexbox )-->
+    <div class="container">
+
+      <table class="table" width="100%" cellspacing="0" cellpadding="20">
+
+        <thead class="bg-bar header">
+          <tr>
+            <td colspan="2">
+              Welcome to My Website
+            </td>
+          </tr>
+        </thead>
+
+        <tbody >
+          <tr>
+            <td class="side-content">
+              <h2 class="heading-side-content">Links</h2>
+
+              <div class="links-container">
+                <a href="./05.12.2.css.table.layout.html">Home</a> 
+                <a href="./about.html">About</a>
+                <a class="link-active" href="./products.html">Products</a>
+                <a href="./services.html">Services</a>
+                <a href="./contact.html">Contact</a>
+              </div>
+            </td>
+
+            <td class="main-content">
+              <h2 class="heading-main-content">Products</h2>
+
+              <div class="content-text">
+                <p>
+                  Click on the links at left panel.
+                </p>
+              </div>
+
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot class="bg-bar footer">
+          <tr>
+            <td colspan="2">
+                CopyRight &copy; 2019 | DreamTech Corporation &reg; License  |  Dreams &trade;
+            </td>
+          </tr>
+        </tfoot>
+        
+      </table>
+
+    </div>
+      
+  </body>
+
+</html>
