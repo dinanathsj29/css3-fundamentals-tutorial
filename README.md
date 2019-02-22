@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="_examples-css3-fundamentals/assets/images/CSS3.png" alt="CSS3 logo" title="CSS3 Fundamentals" width="200" />
+    <img src="_examples-css3-fundamentals/assets/images/css3.png" alt="CSS3 logo" title="CSS3 Fundamentals" width="200" />
 </p>
 
 CSS3 Fundamentals
@@ -1212,7 +1212,7 @@ The CSS provides several properties for styling the background of an element, li
 
 The following diagram demonstrates how the margin, padding, and border CSS properties determine how much space an element can take on a web page:
 <p align="center">
-    <img src="_examples-css3-fundamentals/assets/images/box-model.png" alt="CSS Box Model" title="CSS Box Model" width="300" />
+    <img src="_examples-css3-fundamentals/assets/images/box-model.png" alt="CSS Box Model" title="CSS Box Model" width="400" />
 </p>
 
 > **Syntax & Example**:
@@ -1239,6 +1239,7 @@ The following diagram demonstrates how the margin, padding, and border CSS prope
 - The margin is `Space outside/around an element`, Margin represents the `space between elements`
 - Margin values are not calculated as part of an elements total width
 - The margins do `not have a background-color`, it is `completely transparent`
+- `Margin is outside` and Padding is inside
 - Margin can be defined either to Top, Right, Bottom, Left or to each side of an element
 
 > **Syntax & Example**:
