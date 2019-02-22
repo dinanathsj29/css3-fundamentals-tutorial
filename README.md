@@ -110,6 +110,13 @@ One of the biggest advantages of using CSS is that it allows the separation of s
 	- A CSS file (.css) is a text file itself consists of CSS style & properties, so to create/modify a CSS file we can use any text editors.
 2. **Browsers To view output of .html pages with .CSS styles** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
 	- Once the .html/.htm file created and saved, we can create a .CSS file and link within HTML and then we can see its output in any latest web browser.
+	
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="./_examples-css3-fundamentals/assets/images/browers_all_2.png" alt="all browsers" title="widely used browsers" width="400" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
+  </figure>
+</p>
 
 Section 3. CSS Basics
 =====================
