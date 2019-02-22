@@ -7,7 +7,7 @@ CSS3 Fundamentals
 CSS is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course will demonstrate the concepts that form the foundation of CSS, Creating a CSS file, Writing basic CSS selectors, Setting CSS properties and explains how to use this stylesheet language to add colors and other design elements to take your webpages beyond standard black & white text/background. Will learn guidelines for page layouts with floats, Setting a font family, font size, text color, how the box model defines the spacing and sizing of page elements, styling text, and managing basic layouts. Will also explores the tools needed to work with CSS, how to use selectors to target elements and more.
 
 ### Prerequisites for current course / What you need to know
-To move forward with CSS you must need basic knowledge of XHTML/HTML. Its an added advantage if you know basic concepts like Web, Internet, Web Page, URL, images, Web Design with XHTML/HTML etc. Its advisable to view `[Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals)` and `[HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials)` before jumping into CSS3 Fundamentals.
+To move forward with CSS you must need basic knowledge of XHTML/HTML. Its an added advantage if you know basic concepts like Web, Internet, Web Page, URL, images, Web Design with XHTML/HTML etc. Its advisable to view [Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals) and [HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials) before jumping into CSS3 Fundamentals.
 
 Topics include
 =====================
