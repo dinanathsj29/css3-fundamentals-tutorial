@@ -204,7 +204,7 @@ selector {
 - A CSS style rule is made of following parts:
 
 | **Item**          | **Description**                                       |
-| ----------------- |:-------------------------------------------------:|
+| ----------------- |-------------------------------------------------|
 | selector          | Target (it may be an HTML Element/Tag/Id/Class)           |
 | declaration/rule  | Definition part in curley brace { property: value; }  |
 | property          | skin/style attribute to change (font, size, color, border) 			    |
@@ -685,7 +685,7 @@ p {
 #### Specificity points Chart/Table (ICE)
 
 | Selector              |  Points           |&nbsp; |&nbsp;     |&nbsp;     |&nbsp;             |            
-| --------------------- |:------------------|:-----:|:---------:|:---------:|:-----------------:|
+| --------------------- |:------------------:|:-----:|:---------:|:---------:|-----------------:|
 |                       | style attribute   | ID    | Classes   | Element   | Specificity Score |
 | body (Element/Tag)    | 0                 | 0     | 0         | 1         | 0001              |
 | .class (.content)     | 0                 | 0     | 1         | 0         | 0010              |
@@ -810,7 +810,7 @@ CSS works with the structure of the HTML document along the browser parse the ht
 #### Common Rendering Engines
 
 | Engine        | Browser       |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | Trident       | Internet Explorer, (AOL - America Online), Windows Mobile |
 | Presto        | Opera |
 | Gecko         | Mozilla FF, Camino  |
@@ -851,7 +851,7 @@ Initially/Originally HTML elements and attributes used to define basic styles li
 
 ### 4.1. History of CSS
 | Year          | History                                               |
-| ------------- |:-----------------------------------------------------:|
+| ------------- |-----------------------------------------------------|
 | 1996          | CSS 1.0 released                                      |
 | 1998          | CSS 2.0 released                                      |
 
@@ -860,7 +860,7 @@ Initially/Originally HTML elements and attributes used to define basic styles li
 - Initially, due to no Web Standards, many browser companies had proprietary features, standards, and elements
 
 | 2004          | 2.1 recommendations                                   |
-| ------------- |:-----------------------------------------------------:|
+| ------------- |-----------------------------------------------------|
 | 2005          | 2.1 version moved to working draft by W3C (Due to non-implementation of a feature from browsers)           |
 | 2007          | CSS 2.1 Candidate recommendation                      | 
 | 2011          | CSS 2.1 Fully recommended                             | 
@@ -974,7 +974,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 
 **One can specify color values in various formats, Following table lists all the possible formats**:
 | Format	        |        Syntax	        |    Example
-| ----------------- |:---------------------:|:-----------------------------:|
+| ----------------- |---------------------|-----------------------------|
 | Hex Code	        | #RRGGBB	            | h1 { color:#FF0000; }         |
 | Short Hex Code	| #RGB	                | h1 { color:#F00; }            |
 | RGB %	            | rgb(red%,green%,blue%)   | h1 { color:rgb(50%,50%,50%); }|    
@@ -1044,7 +1044,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
     - **Example**: %, em, rem, vw (viewport width), vh (viewport height)
 
 | Unit	  | Description	                                            | Example                                                 |
-| -------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
+|:-------:|-------------------------------------------------------|-------------------------------------------------------|
 | %       | Relative to the parent/container element	            | p { font-size: 200%; }                                  |
 | em      | Relative to the current font-size (a base font size), (1em = base size of the current font)                       | p { font-size: 2em; }  | 
 | rem     | Relative to the font-size of the root element	        | p { font-size: 2rem }                                   |
@@ -1809,7 +1809,7 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 
 #### Common Vendor Prefixes
 | Prefix        | Browser                                               |
-| ------------- |:-----------------------------------------------------:|
+| ------------- |-----------------------------------------------------|
 | -webkit       | Webkit (Google Chrome, Safari)                        |
 | -moz-         | Mozilla (Mozilla Firefox)                             |
 | -ms-          | Microsoft (Internet EXplorer)                         |
