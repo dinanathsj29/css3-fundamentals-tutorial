@@ -34,7 +34,7 @@ Section 2. Introducing CSS
 
 
 > **Syntax & Example**:
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -132,7 +132,7 @@ Section 3. CSS Basics
 > **Note**: `CSS Reset` a collection of styles allows designers to avoid conflicts between their styles and browser default styles.
 
 > **Syntax & Example**: 
-```
+```html
 <body>
 
     <h1>03.01.default.browser.styles.html</h1>
@@ -154,7 +154,7 @@ Section 3. CSS Basics
 <img src="./_examples-css3-fundamentals/assets/images/css-selector.png" alt="css-selector.png" title="css-selectors"  />
 
 > **Syntax**: 
-```
+```css
 selector { 
     property: value;    /* declaration/rule 1 */
     property: value;    /* declaration/rule 2 */
@@ -162,7 +162,7 @@ selector {
 ```
 
 > **Example**: 
-```
+```html
 <head>
 
     <!-- internal style -->
@@ -225,14 +225,14 @@ selector {
 - This is the simplest/basic way to `target all elements` of a given element/tag/type
 
 > **Syntax**: 
-```
+```css
 Element/Tag { 
     property: value;    /* declaration/rule 1 */
 }
 ```
 
 > **Example**: 
-```
+```html
 <!-- internal style -->
 <style>
 
@@ -265,23 +265,27 @@ Element/Tag {
 > **Note**: `.class` and `#id` attributes/selectors not only allows to style content but primarily exists to give more meaning/semantics to content.
 
 > **Syntax**: 
-```
+```css
 .className { 
     property: value;    /* declaration/rule 1 */
 }
+```
 
+```html
 <h1 class="className">Some heading content </h1>
 ```
 
 > **Example**: 
-```
+```css
 .headingsLarge { 
     border: 2px dotted red;
     text-transform: uppercase;
     text-decoration: underline;
     padding: 10px;
-} 
+}
+```
 
+```html
 <h1 class="headingsLarge">Some heading content </h1>
   
 ```
@@ -296,18 +300,22 @@ Element/Tag {
 > **Note**: `#id` and `.class` attributes/selectors not only allows to style content but primarily exists to give more meaning/semantics to content.
 
 > **Syntax**: 
-```
+```html
 <h1 id="idName">Some heading content </h1>
+```
 
+```css
 #idName { 
     property: value;    /* declaration/rule 1 */
 }
 ```
 
 > **Example**: 
-```
+```html
 <h1 id="headingMain">Some heading content </h1>
+```
 
+```css
 .headingMain { 
     border: 2px dotted red;
     text-transform: uppercase;
@@ -327,14 +335,14 @@ Element/Tag {
 - The universal selector is used as a `wildcard * character`
 
 > **Syntax**: 
-```
+```css
 * { 
     property: value;    /* declaration/rule 1 */
 }
 ```
 
 > **Example**: 
-```
+```css
 * { 
     color: purple;
     letter-spacing: 4px;
@@ -350,14 +358,14 @@ Element/Tag {
 - `Commas ,` are used to separate each selector in grouping
 
 > **Syntax**: 
-```
+```css
 element,.class,#id, element selector{ 
     property: value;    /* declaration/rule 1 */
 }
 ```
 
 > **Example**: 
-```
+```css
 /*
 .headingsLarge { 
     color: purple;
@@ -393,14 +401,14 @@ element,.class,#id, element selector{
 - Conditional/Descendent selector is used to `minimize the code`, its highly efficient selector
 
 > **Syntax**: 
-```
+```css
 parent child selector{ 
     property: value;    /* declaration/rule 1 */
 }
 ```
 
 > **Example**: 
-```
+```css
 div p { 
     color: blueviolet;
     border: 2px dashed gold;
@@ -428,7 +436,7 @@ We used many selectors like `element, class, id, universal` etc. these are fully
 - a pseudo-class is basically a special state or specific characteristic of an element that can be targeted with CSS. A few common pseudo-classes are `:link, :visited, :hover, :active`
 
 > **Syntax**: 
-```
+```css
 element:link {
     property: value;    /* declaration/rule 1 */
 }
@@ -447,7 +455,8 @@ element:active {
 ```
 
 > **Example**: 
-```
+```html
+<head>
 <!-- internal style -->
 <style>
     
@@ -501,8 +510,9 @@ element:active {
     }
 
 </style>
+```
 
-
+```html
 <body>
     
     <div class="links-container horizontal-menu">
@@ -542,15 +552,16 @@ CSS is linked/added to HTML pages to format the document according to informatio
 - External style sheets are the `most flexible` because, with an external style sheet, you can change the look of an entire website by changing just one file.
 
 > **Syntax & Example (.html document file)**:
-```
+```html
 <head>
 
     <link rel="stylesheet" type="text/css" href="../assets/styles/03.11.1.style.css" />
 
 </head>
 ```
+
 > **Syntax & Example (.css stylesheet file)**:
-```
+```css
 /* external css file - css selector: { property:value; } */
 body{
   background-color: #d3d3ff;
@@ -575,7 +586,7 @@ h1 {
 - Used in small non-scalable apps (it isn't quite efficient as external stylesheets)
 
 > **Syntax & Example**:
-```
+```html
 <head>
     <!-- internal style -->
     <style>
@@ -593,7 +604,7 @@ h1 {
             letter-spacing: 5px;
         }
     </style>
-  </head>
+</head>
 ```
 
 #### 3. Inline stylesheet
@@ -604,7 +615,7 @@ h1 {
 - Used in small non-scalable apps (kind of last moment patch/solution)
 
 > **Syntax & Example**:
-```
+```html
 <!-- inline style -->
 <body style=" background-color: #d3d3ff;
             font-family: Arial, Helvetica, sans-serif;
@@ -657,7 +668,7 @@ What selectors win out in the cascade depends on three factors (listed in order 
 - It is strongly recommended that you `never use !important` unless you absolutely have to
 
 > **Syntax & **Example**:
-```
+```css
 .paraText {
   background-color: gray;
   border: none !important;
@@ -669,8 +680,9 @@ p {
   padding: 5px;
   border: 2px dashed black;
 }
+```
 
-
+```html
 <body>
     <p class="paraText" id="mainPara">One selector to rule them all!</p>
 </body>
@@ -699,7 +711,7 @@ p {
 > **Note**: Selector/Rule with more score/points finally wins
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -746,7 +758,7 @@ p {
 - **Note**: All child elements in documents inherits properties from CSS rules applied to body/parent/container elements
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -831,7 +843,7 @@ CSS works with the structure of the HTML document along the browser parse the ht
 - Single or multiple lines comment is written as: `/* code */`
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -919,7 +931,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
     - https://fonts.adobe.com/  https://fonts.google.com/
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -946,7 +958,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 > **Example**: color, text-align, text-decoration, text-transform, line-height, direction, word-spacing, text-shadow
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -994,7 +1006,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 > - 150+ color keywords/color names are supported by CSS
 
 > **Syntax & Example**:
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1054,7 +1066,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 > **Note**: * Viewport = the browser window size
 
 > **Syntax & Example**:
-```
+```html
  <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1149,7 +1161,7 @@ The CSS provides several properties for styling the background of an element, li
     - Sets the starting position of a background image
 
 > **Syntax & Example**: 
-```
+```css
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1224,7 +1236,7 @@ The following diagram demonstrates how the margin, padding, and border CSS prope
 </p>
 
 > **Syntax & Example**:
-```
+```css
 .container {
     background-color: burlywood;
     width: 80%;
@@ -1232,8 +1244,9 @@ The following diagram demonstrates how the margin, padding, and border CSS prope
     border:5px solid #c5760f;
     margin: 20px auto;
 }
+```
 
-
+```html
 <body>
     
     <div class="container"> 
@@ -1251,7 +1264,7 @@ The following diagram demonstrates how the margin, padding, and border CSS prope
 - Margin can be defined either to Top, Right, Bottom, Left or to each side of an element
 
 > **Syntax & Example**:
-```
+```css
 element {
     margin: margin-width/value;
 }
@@ -1270,7 +1283,10 @@ div {
     margin: 15px; /* all sides equally */
     background-color: bisque;
 }
+```
 
+
+```html
 <ul class="normalList">
     <li>Margin is `Space outside/around an element`, Margin represent the `space between elements`</li>
     <li>Margin values are not calculated as part of an elements total width</li>
@@ -1286,7 +1302,7 @@ div {
 - Padding can be defined either to Top, Right, Bottom, Left or to each side of an element
 
 > **Syntax & Example**:
-```
+```css
 element {
     padding: padding-width/value;
 }
@@ -1304,7 +1320,9 @@ div {
     padding: 15px; /* all sides equally */
     background-color: bisque;
 }
+```
 
+```html
 <ul class="normalList">
     <li>Padding is the `breathing space inside an element border` which holds the content aways from edge/border and allows readibility</li>
     <li>CSS Padding property is used to define the space between the element content and the element border</li>
@@ -1322,7 +1340,7 @@ div {
 - The border can be defined either to Top, Right, Bottom, Left or to the whole element 
 
 > **Syntax & Example**: 
-```
+```css
 element {
     border: border-width/value || border-style || border-color
 }
@@ -1409,8 +1427,9 @@ div {
     height:60px;
     background-color: #f98900;
 }
+```
 
-
+```html
 <ul class="border-style-ilst">
     <li>border: solid</li>
     <li>border: dashed</li>
@@ -1448,7 +1467,7 @@ div {
     - `position` property is used to position elements manually
 
 > **Syntax & Example**: 
-```
+```css
 div {
     position: static | relative | absolute | fixed | inherit
 }
@@ -1460,7 +1479,7 @@ div {
 - Relative Positioning helps to nudge or re-position an element from its `current position/location`
 
 > **Syntax & Example**: 
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1523,7 +1542,7 @@ div {
     - Elements are placed relative to the nearest positioned ancestor/parent element OR body OR viewport
 
 > **Syntax & Example**: 
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1584,7 +1603,7 @@ div {
 - Fixed positioning is a subcategory of absolute positioning (the difference is, a fixed positioned element is fixed with respect to the browser's viewport and does not move when scrolled)
 
 > **Syntax & Example**: 
-```
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1648,7 +1667,7 @@ div {
 > **Note**: A floated element is taken `out of the normal flow and shifted to the left or right` as far as possible in the space available of the containing element. Other elements normally flow around the floated items, unless they are prevented from doing so by their `clear` property. 
 
 > **Syntax & Example**: 
-```
+```css
 div {
     float: left | righ | none | inherit
 }
@@ -1656,9 +1675,9 @@ div {
 div {
     clear: both;
 }
+```
 
---------------------
-
+```html
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1765,15 +1784,17 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 - The same content can be viewed with different styles/layouts on different media devices (screen, printer, screen readers) 
 
 > **Syntax & Example**: 
-```
+```css
 1. @media screen {
     /* different styles for screen *\
     property: value;
 }
 
-2. @import syntax
+/*2. @import syntax*/
 @import url("style.css") screen;
+```
 
+```html
 3. link element syntax
 <link rel="stylesheet" type="text/css" href="style.css" media="screen, projection">
 ```
@@ -1817,7 +1838,7 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 | -khtml-       | Konqueror                                             |
 
 > **Syntax & Example**: 
-```
+```css
 <!-- internal style -->
 <style>
     /* css selector: { property:value; } */
@@ -1842,8 +1863,9 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
         text-shadow: 5px 5px 2px #c5760f;
     }
 </style>
+```
 
-
+```html
 <body>
     <h1 class="heading-text" id="mainHeadingText">5. Common CSS Concepts</h1>
 
@@ -1866,7 +1888,7 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
     - line-height
 
 > **Syntax & Example**: 
-```
+```css
 /* css reset styles goes here */
 body, h1, h2, h3, h4, h5, h6, p, input,li {
     margin:0px;
