@@ -1,37 +1,50 @@
 <p align="center">
-    <img src="_examples-css3-fundamentals/assets/images/css3.png" alt="CSS3 logo" title="CSS3 Fundamentals" width="200" />
+    <img src="_examples-css3-fundamentals/assets/images/css3.png" alt="CSS3 cading Style Sheets logo" title="CSS3 cading Style Sheets Fundamentals" width="200" />
 </p>
 
 CSS3 Fundamentals
 =====================
-CSS is a stylesheet language that allows you to control the appearance of your webpages. In this hands-on course will demonstrate the concepts that form the foundation of CSS, Creating a CSS file, Writing basic CSS selectors, Setting CSS properties and explains how to use this stylesheet language to add colors and other design elements to take your webpages beyond standard black & white text/background. Will learn guidelines for page layouts with floats, Setting a font family, font size, text color, how the box model defines the spacing and sizing of page elements, styling text, and managing basic layouts. Will also explores the tools needed to work with CSS, how to use selectors to target elements and more.
+
+CSS stands for Cascading Style Sheets through which we add styles, colors, layouts, design, and look-feel appearance to the web page. 
+
+CSS is a stylesheet language that allows you to control the appearance of your web pages. This hands-on course will demonstrate the concepts that form the foundation of CSS, creating a CSS file, writing basic CSS selectors, setting up various CSS properties, and explains how to use this stylesheet language to add colors and other design elements to take your web pages beyond standard black & white text/background. Will learn guidelines for page layouts with floats, Setting a font family, font size, text color, how the box model defines the spacing and sizing of page elements, styling text, and managing basic layouts. It Will also explores the tools needed to work with CSS, how to use selectors to target elements, and more.
 
 ### Prerequisites for current course / What you need to know
-To move forward with CSS you must need basic knowledge of XHTML/HTML. Its an added advantage if you know basic concepts like Web, Internet, Web Page, URL, images, Web Design with XHTML/HTML etc. Its advisable to view [Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals) and [HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials) before jumping into CSS3 Fundamentals.
+To move forward with CSS you must need basic knowledge of XHTML/HTML/HTML5. It's an added advantage if you know basic concepts like Web, Internet, Web Page, URL, images, Web Design with XHTML/HTML/HTML5 etc. Its advisable to view [Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals) and [HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials) before jumping into CSS3 fundamentals.
 
 Topics include
 =====================
-1. [Course Introduction](#section-1-course-introduction)
-2. [Introducing CSS](#section-2-introducing-css)
-3. [CSS Basics](#section-3-css-basics)
-4. [CSS Specifications](#section-4-css-specifications)
-5. [Common CSS Concepts](#section-5-common-css-concepts)
-6. [CSS Resources](#section-6-css-resources)
-7. [Whats Next Step?](#section-7-whats-next-step)
 
-Section 1. Course Introduction
+1. [Course introduction](#section-1-course-introduction)
+2. [Introducing CSS](#section-2-introducing-css)
+3. [CSS basics](#section-3-css-basics)
+4. [CSS specifications](#section-4-css-specifications)
+5. [Common CSS concepts](#section-5-common-css-concepts)
+6. [CSS resources](#section-6-css-resources)
+7. [What's the next Step?](#section-7-whats-the-next-step)
+
+Section 1. Course introduction
 =====================
+
 ### 1.1. Welcome
-Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to CSS3 Fundamentals. This course is designed to introduce you to the basic CSS concepts, terminology, and tools. Its perfect of any new web designer/developer looking for a good starting point with CSS. Will start by exploring the basics of CSS, what CSS is?, syntax, how CSS works, use CSS to create websites, using CSS on a wide variety of platforms. I will start by giving an overview of CSS, CSS features, browser support, followed by formatting text, layouts, images, box model, positioning, CSS online tools, and resources.
+Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to CSS3 Fundamentals. This course is designed to introduce you to basic CSS concepts, terminology, and tools. It's perfect for any new web designer/developer looking for a good starting point with CSS. We Will start by exploring the basics of CSS, what CSS is?, syntax, how CSS works, use CSS to create websites, using CSS on a wide variety of platforms. I will start by giving an overview of CSS, CSS features, browser support, followed by formatting text, layouts, images, box model, positioning, CSS online tools, and resources.
 
 Section 2. Introducing CSS
 =====================
-### 2.1. Importance
-#### 3 pillars / core Languages/technologies used for Frond End Web Design/Development
-1. HTML (HyperText Markup Language) - Markup language, Essential Page Structure/Content, Redable and convey structure to user, Text Layout Model, page Mark-up, Text, Tags, Data, details for pages, Images, Tables, Anchor Links, Forms`**
-2. **`CSS (Cascading Style Sheet) - Style Sheet language, Page Design / Presentation / Layouts / Styling / Formattings, look and feel, Creative part of Web Pages`**
-3. **JavaScript (JS)** - Scripting language, Dynamic Page Behaviour, Logics, Conditions and Validations, Events, Interactivity with User, Dynamic updates in a Web Page
 
+### 2.1. Importance
+
+### 3 pillars / core Languages/Technologies used for Front End Web Design/Development:
+
+1. **HTML (HyperText Markup Language)** - Markup language, essential page structure/content, readable and convey structure to the user, text layout model, page mark-up, text, tags, data, details for pages, images, tables, anchor links, forms
+    - HTML is an acronym that stands for `HyperText Markup Language` which is used for creating `web pages and web applications
+    - HTML is not a programming language; it is a markup language that defines the structure of your content ie. document
+
+2. **`CSS (Cascading Style Sheet) - Style Sheet language, page design / presentation / layouts / styling / formattings, look and feel, creative part of web pages`**
+    - CSS is a stylesheet language that allows you to control the appearance (look and feel) of your webpages
+
+3. **JavaScript (JS)** - Scripting language, dynamic page behavior, logics, conditions and validations, events (mouse click, hover), interactivity with the user/events, dynamic updates in a web page
+    - JavaScript is a `scripting language of the web that allows you to do interactivity with the user, implement conditions and validations, dynamic updates in a web page, etc.
 
 > **Syntax & Example**:
 ```html
@@ -66,7 +79,7 @@ Section 2. Introducing CSS
     <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-decoration: underline;"></h1>>Getting Started with CSS</h1>
 
     <p>In this tutorial you'll learn how easy it is to add style and formatting information to the web pages using CSS. But, before we begin, make sure that you have some working knowledge of HTML. <br /> <br />
-    If you're just starting out in the world of web development, start learning from here <br /><br />
+    If you're just starting in the world of web development, start learning from here <br /><br />
     Well, let's get started with the most popular style sheet language.</p>
 
   </body>
@@ -97,20 +110,20 @@ Section 2. Introducing CSS
 
 ### 2.4 Advantages of CSS
 One of the biggest advantages of using CSS is that it allows the separation of style and layout from the content of the document. Let us have a look at some more advantages of using CSS:
-- Easy Maintenance (separate .css file)
-- CSS Save Lots of Time (re-usability)
-- Pages Load Faster (separation of concern)
-- Superior Styles to HTML (Provide more attributes) 
-- Multiple Device Compatibility
+- Easy maintenance (separate .css file)
+- CSS save lots of time on styling multiple pages/application(re-usability)
+- Pages load faster (separation of concern)
+- Superior styles to HTML (Provide more attributes) 
+- Multiple device compatibility (manage/handle devices with different resolution)
 - Global web standards
 
 ### 2.5. Prerequisites of using CSS (Cascading Style Sheets)
 #### Tools for building web sites-web pages/writing HTML & CSS
 
 1. **Text Editor/HTML Editor** - `NotePad, NotePad++, SublimeText, Atom, Brackets, Coda, Visual Studio Code, DreamWeaver` etc.
-	- A CSS file (.css) is a text file itself consists of CSS style & properties, so to create/modify a CSS file we can use any text editors.
+	- A CSS file (.css) is a text file itself consists of CSS style & properties, so to create/modify a CSS file we can use any text editor.
 2. **Browsers To view output of .html pages with .CSS styles** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
-	- Once the .html/.htm file created and saved, we can create a .CSS file and link within HTML and then we can see its output in any latest web browser.
+	- Once the .html/.htm file is created and saved, we can create a .CSS file and link within HTML and then we can see its output in any latest web browser.
 	
 <p>
   <figure>
@@ -119,13 +132,14 @@ One of the biggest advantages of using CSS is that it allows the separation of s
   </figure>
 </p>
 
-Section 3. CSS Basics
+Section 3. CSS basics
 =====================
+
 ### 3.1. Default Browser styles
 - Open any HTML page (Unstyled / No CSS used) in browser, have a look on content styles
 > **Note**: Saying Unstyled is not accurate as every browser apply own default style set to visual CSS rules `user agent stylesheet` on every elements like `<h1> to <h6>, <ul> <ol> <li>, <p>, <a> [fonts used, different size of text, space between paragraphs, anchor links color]`.
-- When Designer/Developer writes CSS to show custom look it overwrites browser default styles and apply `custom styles`
-- Many HTML elements come with browser specific some default CSS properties which can sometimes result in unknown/unwanted behaviour
+- When the Designer/Developer writes CSS to show a custom look it overwrites browser default styles and apply `custom styles`
+- Many HTML elements come with browser-specific default CSS properties which can sometimes result in unknown/unwanted behavior
 - For example `Input boxes`, `selec option dropdown` are displayed differently in different browsers
 > **Note**: Check the page source or Inspect page with Debugger utilities like: `FireBug, Inspect/ Inspect Element` (in browser -> Right Click on page -> choose Inspect Element -> Check/observe actual HTML/CSS code/tags/properties).
 
@@ -142,7 +156,7 @@ Section 3. CSS Basics
     </ul>
 
     <p>When Designer/Developer writes CSS to show custom look it overwrites browser default styles and apply `custom styles` <br /> <br />
-    - Many HTML elements come with browser specific some default CSS properties which can sometimes result in unknown/unwanted behaviour</p>
+    - Many HTML elements come with browser-specific  default CSS properties which can sometimes result in unknown/unwanted behavior </p>
 
   </body>
 ```
@@ -201,7 +215,7 @@ selector {
 ```
 
 #### Basic elements of CSS syntax:
-- A CSS style rule is made of following parts:
+- A CSS style rule is made of the following parts:
 
 | **Item**          | **Description**                                       |
 | ----------------- |-------------------------------------------------|
@@ -258,7 +272,7 @@ Element/Tag {
 - The class selector selects HTML elements with a `specific class attribute` 
 - It is used with a period character `. (full stop symbol)` followed by the class name
 - Attribute selector based on `class attributes` applied to HTML element/tag
-- A generic set of rules applied to similar looking item (belongs to same .class)
+- A generic set of rules applied to the similar-looking item (belongs to same .class)
 - `.class` is a very important attribute while dealing with HTML+CSS as similar looking/output based things on a web page usually belongs to one class
 - `.class` selector is a more precise way to target an element/markup as compared to ab `element/tag/type` selector
 
@@ -295,7 +309,7 @@ Element/Tag {
 - It is used with a `hash/pound character # sign` followed by the id name
 - Attribute selector based on specific id attributes applied to HTML element/tag
 - An `id` is always `single/unique` within the page so it is chosen to select a single, unique element in a web page
-- #id is very important attribute while dealing with HTML+CSS to make and `target single unique thing` in document
+- #id is a very important attribute while dealing with HTML+CSS to make and `target single unique thing` in document
 
 > **Note**: `#id` and `.class` attributes/selectors not only allows to style content but primarily exists to give more meaning/semantics to content.
 
@@ -331,7 +345,7 @@ Element/Tag {
 
 ### 3.7. Universal Selector
 - The universal selector `selects all the elements` on the page
-- Rather selecting elements of a specific type, the universal selector simply `matches the name of any element type`
+- Rather than selecting elements of a specific type, the universal selector simply `matches the name of any element type`
 - The universal selector is used as a `wildcard * character`
 
 > **Syntax**: 
@@ -393,11 +407,11 @@ element,.class,#id, element selector{
 }  
 ```
 
-### 3.9. Conditional/Descendent Selector (parent-child)
+### 3.9. Conditional/Descendant Selector (parent-child)
 - `Highly specific selector` that target elements based on their location within other elements
 - You can use this selector when you need to select an element that is the `descendant/inside of another element`
 - You want to apply a style rule to a particular element only when it lies inside a particular element
-- `White space` is used to denote a hierarchy of element (parent nested child)
+- `White space` is used to denote a hierarchy of elements (parent nested child)
 - Conditional/Descendent selector is used to `minimize the code`, its highly efficient selector
 
 > **Syntax**: 
@@ -428,7 +442,7 @@ ol .highlightRed{
 ```
 
 ### 3.10. Pseudo-class Selector 
-We used many selectors like `element, class, id, universal` etc. these are fully dependent on DOM structural representation (Document Object Model). But special states like `:hover, :active, :visited, :before :after` are styled with Pseudo-class Selector.
+We used many selectors like `element, class, id, universal` etc. which are fully dependent on DOM structural representation (Document Object Model). But special states like `:hover, :active, :visited, :before :after` are styled with Pseudo-class Selector.
 - pseudo means `not actually but having the appearance of; pretended; false or spurious;`
 - Pseudo-class selectors are CSS selectors with a colon preceding them `:`
 - A CSS pseudo-class is a keyword added to a selector that specifies a `special state` of the selected element(s) like `hover, active, focus, visited, link`
@@ -547,7 +561,7 @@ CSS is linked/added to HTML pages to format the document according to informatio
 - External stylesheet is like a normal text file with `.CSS extension` containing styles for HTML markup
 - Most of the time we have to use an external style sheet (.css file) to separate Markup, Style, and Script from a web document 
 - `<link />` tag is used under `<head>` section to embed/import/link external CSS file which can be used in various HTML pages
-- An advantage of external CSS file over internal(embedded)/inline CSS is that a `single CSS file can be used in multiple pages` of an application to get flexibility & consistency over styling (efficient)
+- An advantage of external CSS file over internal(embedded)/inline CSS is that a `single CSS file can be used in multiple pages of an application to get flexibility & consistency over styling (efficient)
 - An external style sheet `holds all the style rules` in a separate document that you can link from an HTML file on your site.
 - External style sheets are the `most flexible` because, with an external style sheet, you can change the look of an entire website by changing just one file.
 
@@ -579,7 +593,7 @@ h1 {
 
 #### 2. Internal stylesheet (Embedded stylesheet)
 - Internal (Embedded) CSS is used to apply CSS on a single/specific document or page
-- An Internal style sheet may be useful if one single page has a unique style
+- An internal style sheet may be useful if one single page has a unique style
 - An Internal/Embedded style sheets only affect the document they are embedded in
 - `<style>` tag is used to write internal styles under `<head>` section (binds to current file only)
 `<style>` tag allows us to write directly into the document
@@ -632,7 +646,7 @@ h1 {
 #### CSS authoring points/understandings:
 - Most of the projects rely heavily on external stylesheets
 - Internal (Embedded) styles are mainly used to overwrite external styles
-- Inline styles are like last moment fix/patch/solution to achieve the required style output
+- Inline-styles are like last moment fix/patch/solution to achieve the required style output
 - One should plan an overall site strategy for style placement
 
 ### 3.12. How Browsers apply styles
@@ -646,13 +660,13 @@ h1 {
 
 #### 3.12.2. The Cascade mechanism
 - CSS is an abbreviation for Cascading Style Sheets, which indicates that the notion of the cascade is important while working with styles
-- If multiple CSS rules will have selectors matching the same element in such cases, which CSS rule "wins", and finally applied to the element? This is controlled by a mechanism called the Cascade; 
+- If multiple CSS rules will have selectors matching the same element in such cases, which CSS rule "wins", and is finally applied to the element? This is controlled by a mechanism called the Cascade; 
 
 #### 3.12.3. CSS apply order
 1. External stylesheet (Separation of concern)
 2. Internal stylesheet (Embedded stylesheet)
 3. Inline stylesheet
-> **Note**: If any styles conflicts with each other than `latest/most recent and closest/nearest` set of styles overwrites the earlier style
+> **Note**: If any styles conflict with each other then the `latest/most recent and closest/nearest` set of styles overwrites the earlier style
 > **Note**: Cascade simply means `last rule applied wins!`
 
 #### 3.12.4. The cascade dependency factors
@@ -690,7 +704,7 @@ p {
 
 #### 2. Specificity
 - Specificity is basically a measure of how specific a selector/rule is
-- If more conflicting CSS rules comes to the same element, than the browser follows some rules to determine which one is a most specific selector to apply and wins out
+- If more conflicting CSS rules comes to the same element then the browser follows some rules to determine which one is the most specific selector to apply and wins out
 - **`ID selectors` have an even higher specificity than `class selectors` and lowest is `element selectors`**
 > **Note**: The only way to win against an ID selector is to use `!important` or using `inline styles`. The only way to win against an `!important` is to include another !important declaration
 
@@ -754,8 +768,8 @@ p {
 - Inheritance simply means using some properties from parent/container elements to a child
 - The inherit keyword specifies that a property should inherit its value from its parent element
 - Latest/last rules applied will win over earlier rules
-- Styles are cumulative; so the final rendering of elements depends not only on selectors directly target the element but also any properties that might be inherited from parent/top-level elements
-- **Note**: All child elements in documents inherits properties from CSS rules applied to body/parent/container elements
+- Styles are cumulative; so the final rendering of elements depends not only on selectors directly target the element but also on any properties that might be inherited from parent/top-level elements
+- **Note**: All child elements in documents inherit properties from CSS rules applied to body/parent/container elements
 
 > **Syntax & Example**:
 ```html
@@ -785,12 +799,12 @@ p {
 ```
 
 ### 3.13. How CSS works with HTML structure
-CSS works with the structure of the HTML document along the browser parse the html code, find the right element and style accordingly.
+CSS works with the structure of the HTML document along the browser parse the HTML code, find the right element, and style accordingly.
 > **Load HTML -> Parse HTML -> Load CSS -> Parse CSS -> Browser creates DOM Tree with (parsed HTML + CSS)  -> Display into Browser**
 
 **Guidelines for writing HTML**:
-- Focus on writing clean, Semantic, consistent and efficient HTML markup/code
-- Its impossible to write an efficient CSS Without a logical, consistent HTML structure
+- Focus on writing clean, Semantic, consistent, and efficient HTML markup/code
+- It's impossible to write an efficient CSS Without a logical, consistent HTML structure
 - Structure the HTML so that it adds meaning to the content
 - Don't focus on styling when initially structuring HTML markup/code
 
@@ -815,21 +829,21 @@ CSS works with the structure of the HTML document along the browser parse the ht
     - Group & Align Vendor Prefixes
 
 ### 3.14. Browser rendering differences
-- Browsers developed independently of each other, so different browsers rendering engines parse, renders and displays output differently
+- Browsers developed independently of each other, so different browser rendering engines parse, renders, and displays output differently
 - Each browser has its own different parsers, policies, preferences on how to render and display content
 > **Note**: `Hack` code designed to overcome an error/Browser rendering differences of a specific browser
 
 #### Common Rendering Engines
 
 | Engine        | Browser       |
-| ------------- |-------------|
+| ------------- |---------------|
 | Trident       | Internet Explorer, (AOL - America Online), Windows Mobile |
-| Presto        | Opera |
+| Presto        | Opera         |
 | Gecko         | Mozilla FF, Camino  |
 | Webkit        | Safari, Google Chrome |
 
 #### W3C and Web standards (World Wide Web Consortium)
-- `W3C (World Wide Web Consortium) is main International Standards Organization for the World Wide Web help in `developing protocols and guidelines` that ensure long-term growth for the Web
+- `W3C (World Wide Web Consortium) is the main International Standards Organization for the World Wide Web help in `developing protocols and guidelines that ensure long-term growth for the Web
 - W3C (World Wide Web Consortium) started in the year 1994 to issue recommendations for web technologies
 - Check web standards for consistent design (The Web Standard Project): www.webstandards.org
 - W3C website: https://www.w3.org/
@@ -837,7 +851,7 @@ CSS works with the structure of the HTML document along the browser parse the ht
 ### 3.15. CSS Comments
 - Comments are useful for organizing styles, annotating code, or communicating code scenarios with team members
 - CSS comments are generally `written to explain your code`
-- Comments are also great for debugging, understanding code logic, purpose etc. because you can comment out lines of code
+- Comments are also great for debugging, understanding code logic, purpose, etc. because you can comment out lines of code
 - It is very helpful for the users who read your code so that they can easily `understand the code`
 - Comments are `ignored by browsers`, it is `good for developers`
 - Single or multiple lines comment is written as: `/* code */`
@@ -856,31 +870,32 @@ CSS works with the structure of the HTML document along the browser parse the ht
 </style>    
 ```
 
-Section 4. CSS Specifications
+Section 4. CSS specifications
 =====================
+
 CSS is constantly changing and evolving, new features and capabilities are added to enhance design/styling. 
 Initially/Originally HTML elements and attributes used to define basic styles like **bold**, *italics*, size, text color, background color etc.  
 
 ### 4.1. History of CSS
-| Year          | History                                               |
-| ------------- |-----------------------------------------------------|
-| 1996          | CSS 1.0 released                                      |
-| 1998          | CSS 2.0 released                                      |
+| Year          | History               |
+| ------------- |-----------------------|
+| 1996          | CSS 1.0 released      |
+| 1998          | CSS 2.0 released      |
 
 > **Note**: 
 - Early browser versions focused on market shares rather than compliance & standards
 - Initially, due to no Web Standards, many browser companies had proprietary features, standards, and elements
 
-| 2004          | 2.1 recommendations                                   |
-| ------------- |-----------------------------------------------------|
-| 2005          | 2.1 version moved to working draft by W3C (Due to non-implementation of a feature from browsers)           |
-| 2007          | CSS 2.1 Candidate recommendation                      | 
-| 2011          | CSS 2.1 Fully recommended                             | 
+| 2004          | 2.1 recommendations                           |
+| ------------- |-----------------------------------------------|
+| 2005          | 2.1 version moved to working draft by W3C (Due to non-implementation of a feature from browsers)                  |
+| 2007          | CSS 2.1 Candidate recommendation              | 
+| 2011          | CSS 2.1 Fully recommended                     | 
 
 > **Note**: 
 - CSS3 is not a single specification
 - CSS/CSS3 now published as a series of modularised specifications
-- Different features/utilities released separately like selectors, borders, box shadow, text-shadow, animations, transitions, media query etc.
+- Different features/utilities are released separately like selectors, borders, box-shadow, text-shadow, animations, transitions, media query, etc.
 
 ### 4.2. The Current State of CSS
 CSS is changing in nature, so significant changes keep on happening in the specification. 
@@ -890,8 +905,8 @@ CSS is changing in nature, so significant changes keep on happening in the speci
 - [All CSS specifications](https://www.w3.org/Style/CSS/specs.en.html)
 
 ### 4.3. Checking browser support:
-- CSS is constantly changing and evolving language, many features are implemented and many more are implementing. As a Web Designer/Developer you must know which features works and supports in a browser and which are not
-- There are many rendering inconsistencies from browser to browser to due to frequent version changes or CSS specifications updations
+- CSS is a constantly changing and evolving language, many features are implemented and many more are implementing. As a Web Designer/Developer you must know which features works and supports in a browser and which are not
+- There are many rendering inconsistencies from browser to browser due to frequent version changes or CSS specifications updations
 
 > Online resources to check browser support:
 - https://caniuse.com (Support tables for HTML5, CSS3, etc)
@@ -901,14 +916,15 @@ CSS is changing in nature, so significant changes keep on happening in the speci
 - http://www.positioniseverything.net/ (Modern browser bugs explained in detail!)
 - Browser development companies proprietary websites
 
-Section 5. Common CSS Concepts
+Section 5. Common CSS concepts
 =====================
-There are many CSS concepts and properties we use in day to day CSS work, lets dive into some of the common concepts used while working with CSS.
+
+There are many CSS concepts and properties we use in day-to-day CSS work, lets dive into some of the common concepts used while working with CSS.
 
 ### 5.1. Working with fonts
 - Controlling `typography-text-font` is one of the most important things to do with CSS
 - CSS `Font` property is used to control the look of font-texts 
-- By the use of CSS font property, you can change the font type, font-text size, color, style, bold etc.
+- By the use of the CSS font property, you can change the font type, font-text size, color, style, bold, etc.
 - **Font styles**: Properties that affect the font that is applied to the text, affecting what font is applied, how big it is, whether it is bold, italic, etc.
 > **Example/font attributes-properties**: font-family, font-size, color, font-style, font-weight, font-variant. https://www.fontsquirrel.com/   
 
@@ -920,14 +936,14 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
     - Older / Widely supported basic fonts
     - Limited numbers of fonts to use/apply
     - Only installed fonts on user/client machine to used/viewed
-    - **Example**: (4 main category of fonts families)
+    - **Example**: (4 main categories of fonts families)
         - **generic fonts family:** Serif, Sans-Serif, MonoSpace, Cursive**
         - **font family**: Times, Arial, Courier, Comic Sans
     - **Requesting fonts in fallback manner (Font stacks)**: `selector { font-family: Arial, Helvetica, Verdana, Sans-serif; }` (if requested font not available use default `serif` fonts)
 2. **Web Fonts**:
     - Emerging technique
     - Lack of support in older browsers
-    - Web Fonts refer to the technique of having the browser download and install fonts that are requested in the pages's styles using the `@font-face` syntax/method
+    - Web Fonts refer to the technique of having the browser download and install fonts that are requested in the pages styles using the `@font-face` syntax/method
     - https://fonts.adobe.com/  https://fonts.google.com/
 
 > **Syntax & Example**:
@@ -953,7 +969,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 ```
 
 ### 5.2. Formatting text
-- CSS text properties allow you to define several text styles such as color, alignment, spacing, decoration, transformation etc. very easily an effectively
+- CSS text properties allow you to define several text styles such as color, alignment, spacing, decoration, transformation, etc. very easily and effectively
 - **Text layout styles**: Properties that affect the spacing and other layout features of the text, allowing manipulation of the space between lines and letters, and how the text is aligned within the content box
 > **Example**: color, text-align, text-decoration, text-transform, line-height, direction, word-spacing, text-shadow
 
@@ -986,7 +1002,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 
 **One can specify color values in various formats, Following table lists all the possible formats**:
 | Format	        |        Syntax	        |    Example
-| ----------------- |---------------------|-----------------------------|
+| ----------------- |-----------------------|-------------------------------|
 | Hex Code	        | #RRGGBB	            | h1 { color:#FF0000; }         |
 | Short Hex Code	| #RGB	                | h1 { color:#F00; }            |
 | RGB %	            | rgb(red%,green%,blue%)   | h1 { color:rgb(50%,50%,50%); }|    
@@ -1034,8 +1050,8 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 ```
 
 ### 5.4. Common Measurement units
-- Units are used to specify non-zero length value in CSS properties
-- Length measured can be either `absolute units such as pixels, points` and so on, or `relative such as percentages (%) and em` units
+- Units are used to specify non-zero length values in CSS properties
+- Length measured can be either `absolute units such as pixels, points and so on, or `relative such as percentages (%) and em` units
 - CSS properties take "length" values, such as width, height, margin, padding, font-size, border-width etc.
 
 **There are two unit types:** 
@@ -1043,10 +1059,10 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
 2. Relative Values/Units
 
 1. **Absolute Values/Units**
-    - Absolute values are also referred to as fixed values specify an exact measurement values
+    - Absolute values are also referred to as fixed values specify exact measurement values
     - Typically used when physical properties of user agents are known
-    - The absolute length units will appear as exactly as size mentioned
-    - Absolute physical units such as `in, cm, mm`, etc. should be used for `print media and similar high-resolution devices`. 
+    - The absolute length units will appear as exactly as the size mentioned
+    - Absolute physical units such as `in, cm, mm`, etc. should be used for `print media and similar high-resolution devices. 
     - An on-screen display such as `desktop and lower-resolution devices`, it is recommended to use the `pixel or em` units.
     - **Example**: in (inches), cm (centimeters), mm (millimeters), pt (points), pc (picas), * px (pixel units)
     > **Note**: * px (Pixels Units) are relative to the viewing device. 
@@ -1056,7 +1072,7 @@ There are many CSS concepts and properties we use in day to day CSS work, lets d
     - **Example**: %, em, rem, vw (viewport width), vh (viewport height)
 
 | Unit	  | Description	                                            | Example                                                 |
-|:-------:|-------------------------------------------------------|-------------------------------------------------------|
+|:-------:|---------------------------------------------------------|---------------------------------------------------------|
 | %       | Relative to the parent/container element	            | p { font-size: 200%; }                                  |
 | em      | Relative to the current font-size (a base font size), (1em = base size of the current font)                       | p { font-size: 2em; }  | 
 | rem     | Relative to the font-size of the root element	        | p { font-size: 2rem }                                   |
@@ -1223,8 +1239,8 @@ The CSS provides several properties for styling the background of an element, li
 ### 5.6. Box Model
 - The Box Model refers to the physical properties of an element rectangular box
 - Every element displayed is comprised of one or more rectangular boxes. CSS box model typically describes how these rectangular boxes are laid out on a web page
-- The Box Model concepts help to make layout/designing task easier
-- **Box Model consists of properties like**: Margins, Borders, Padding and content width, height (these properties make physical dimension of an element)
+- The Box Model concepts help to make layout/designing tasks easier
+- **Box Model consists of properties like**: Margins, Borders, Padding and content width, height (these properties make the physical dimension of an element)
     - Margin = Space outside/around an element
     - Border = Rectangular outline/border surrouding an element/box
     - Padding = Breathing space inside an element border
@@ -1299,7 +1315,7 @@ div {
 - Padding is the `breathing space inside an element border` which holds the content away from edge/border and allows readability
 - CSS Padding property is used to define the space between the element content and the element border
 - `Padding is inside` and Margin is outside
-- Padding can be defined either to Top, Right, Bottom, Left or to each side of an element
+- Padding can be defined either to Top, Right, Bottom, Left, or to each side of an element
 
 > **Syntax & Example**:
 ```css
@@ -1337,7 +1353,7 @@ div {
 - Widely used to define/apply `decorative effects/visual separation` to an element
 - The border of an element goes around the padding and content
 - Borders are defined with 3 properties: `border-width, border-style, border-color, border-radius`
-- The border can be defined either to Top, Right, Bottom, Left or to the whole element 
+- The border can be defined either to Top, Right, Bottom, Left, or to the whole element 
 
 > **Syntax & Example**: 
 ```css
@@ -1454,7 +1470,7 @@ div {
 ### 5.10. Element Positioning
 - Positioning allows to take an element on the page and `control where and how it can be positioned`
 - The CSS `position property` is used to `set position` for an element
-- It is also used to place an element `behind another` and also useful for `scripted animation effect`
+- It is also used to place an element `behind another` and is also useful for `scripted animation effect`
 
 #### CSS positioning schemes
 - Normal Flow
@@ -1474,7 +1490,7 @@ div {
 ```
 
 #### Relative Positioning 
-- Elements are still considered as part of normal document flow, but one can offset the elements from its normal position using top, right, bottom, or left offset values
+- Elements are still considered as part of normal document flow, but one can offset the elements from their normal position using top, right, bottom, or left offset values
 - Relative positioning changes the position of the HTML element `relative to where it normally` appears (`positioned relative to its normal position`)
 - Relative Positioning helps to nudge or re-position an element from its `current position/location`
 
@@ -1598,7 +1614,7 @@ div {
 
 #### Fixed Positioning 
 - The fixed positioning property helps to put the text fixed on the browser
-- Fixed Positioned elements are considered to be an Absolute Positioned elements itself but it always positioned relative to the `active viewport`
+- Fixed Positioned elements are considered to be an Absolute Positioned elements themselves but it always positioned relative to the `active viewport`
 - As Fixed Positioned elements are positioned relative to the `active viewport` scrollbar doesn't affect it
 - Fixed positioning is a subcategory of absolute positioning (the difference is, a fixed positioned element is fixed with respect to the browser's viewport and does not move when scrolled)
 
@@ -1653,7 +1669,7 @@ div {
 ### 5.11. Floats
 - Floating simply denotes an element shifted/placed on the left or right side
 - Floating is one of the widely used CSS layout techniques
-- Floats are used to create: Layout Design, Horizontal Menu/Navigation, Columner/Column Layouts
+- Floats are used to create: Layout Design, Horizontal Menu/Navigation, Columnar/Column Layouts
 - The CSS float property is a `positioning property`
 - The `float` property is used for positioning and formatting content e.g. let box/an image float left or right side of a container
 - `clear: both` property is used to stop the floats of an element and start the normal document flow
@@ -1726,17 +1742,17 @@ div {
 
 ### 5.12. Basic Layout Concepts
 - Create different `content regions` with DIVs or New HTML5 Semantics Tags and then do `region styling` as per layout requirements.
-There are different ways to create multicolumn layouts. Each way/layout techniques has its pros and cons:
+There are different ways to create multicolumn layouts. Each way/layout technique has its pros and cons:
 1. **HTML Layout using Tables `(not recommended)`**
 	- Use Table, TR, TD tag to create a whole layout
-	- Table based layouts are not at all flexible and difficult to manage and modify
+	- Table-based layouts are not at all flexible and difficult to manage and modify
 2. **Layouts using Div and Span `(CSS float property)`**
 	- You can use `Div - the block level element` to create a complete web layout with CSS `float` property  
-	- It is a common and widely used technique to create entire web layouts using the CSS float property (float - helps to align block level elements)
-	- Floating elements are tied to the document flow, which may harm the flexibility and sometimes its difficult to manage the whole layout
+	- It is a common and widely used technique to create entire web layouts using the CSS float property (float - helps to align block-level elements)
+	- Floating elements are tied to the document flow, which may harm the flexibility, and sometimes it's difficult to manage the whole layout
 3. **HTML5 Semantic Tags based Layout`(CSS float property)`**
-	- You can use HTML5 semantic tags like main, header, nav, section, article, aside, footer etc. to create a fully functional web layout
-	- It is a common and widely used technique to create entire web layouts using the CSS float property (float - helps to align block level elements)
+	- You can use HTML5 semantic tags like main, header, nav, section, article, aside, footer, etc. to create a fully functional web layout
+	- It is a common and widely used technique to create entire web layouts using the CSS float property (float - helps to align block-level elements)
 4. **CSS flexbox Layout**
 	- Flexbox is a new layout mode in CSS3
 5. **CSS framework**
@@ -1749,7 +1765,7 @@ There are different ways to create multicolumn layouts. Each way/layout techniqu
 #### 1. Creating Table-based Layout `(not recommended)`
 - The purpose of the `<table>` element is to display tabular data
 - The simplest and most popular way of creating layouts is using HTML `<table>` tag. These tables are arranged in columns and rows, so you can utilize these rows and columns in whatever way you like.
-- The `<table>` element was not designed to be a layout tool! Before introduction to Div tag, web designers/developers use to follow table based layout
+- The `<table>` element was not designed to be a layout tool! Before the introduction to Div tag, web designers/developers use to follow table-based layout
 > **Note**: Do not use tables for your page layout! They will make code length, tedious and brings a mess into your code
 
 > **Syntax & Example (CSS Table base layout)**: 
@@ -1778,7 +1794,7 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 ```
 
 ### 5.13. Media Types and Media Queries
-- One of the great benefit of using HTML5 & CSS3 to separate structure and presentation also an ability to present the same content in a different way on multiple devices
+- One of the great benefits of using HTML5 & CSS3 to separate structure and presentation is also the ability to present the same content in a different way on multiple devices
 - CSS3 allows targeting multiple devices by using `media types & media queries`
 - **Media Types**: Allows us to control/serve a different set of styles to multiple devices based on device type
 - The same content can be viewed with different styles/layouts on different media devices (screen, printer, screen readers) 
@@ -1808,12 +1824,12 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 - **Different Media features**: width, height, (min-width, max-width)
 
 ### 5.14. CSS3
-- CSS3 is brand, a latest specification/module of CSS which consists of many latest and upgraded features/functionalities/powerful tools+options
+- CSS3 is brand, the latest specification/module of CSS which consists of many latest and upgraded features/functionalities/powerful tools+options
 - **CSS3 feature**: 
     - border-radius, border-image, multiple backgrounds images 
     - colors: rgba & hsla (alpha color values)
     - Text formatting: text-shadow, multiple columns, @font-face
-    - New Selectors: many psuedo selectors like nth:
+    - New Selectors: many pseudo selectors like nth:
     - box-shadow
     - gradients
     - transforms
@@ -1822,15 +1838,15 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 
 ### 5.15. CSS Vendor Prefixes (CSS Browser Prefixes)
 - Vendor Prefixes allows browsers manufacturers to add support for `proprietary features which are still in development`
-- Browser manufacturers have used browser specific `prefixes for experimental APIs`
-- Vendor Prefixes gives the designer/developer an opportunity to use experimental/evolving features-properties
+- Browser manufacturers have used browser-specific `prefixes for experimental APIs`
+- Vendor Prefixes allows the designer/developer an opportunity to use experimental/evolving features-properties
 - CSS vendor prefixes/CSS browser prefixes are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers
 
-> **Note**: CSS vendor prefixes/CSS browser prefixes are used only for latest CSS3 properties which are not fully developed/supported by all browser
+> **Note**: CSS vendor prefixes/CSS browser prefixes are used only for the latest CSS3 properties which are not fully developed/supported by all browser
 
 #### Common Vendor Prefixes
 | Prefix        | Browser                                               |
-| ------------- |-----------------------------------------------------|
+| ------------- |-------------------------------------------------------|
 | -webkit       | Webkit (Google Chrome, Safari)                        |
 | -moz-         | Mozilla (Mozilla Firefox)                             |
 | -ms-          | Microsoft (Internet EXplorer)                         |
@@ -1878,7 +1894,7 @@ Please Check example/demo: 05.12.3.semantic.tag.layout
 - CSS Reset a collection of styles allows designers to avoid conflicts between their styles and browser default styles
 - Every browser has its own default `user agent stylesheet`, that it uses to make unstyled websites appear more beautiful/legible. (By default apply variable font-sizes to H1 to H6, a certain amount of padding to almost every element, make links blue and visited links purple, give tables a certain amount of border and padding)
 - Using a CSS Reset, we can force every browser to have all its styles reset to null, thus `avoiding cross-browser differences` as much as possible
-- The goal of a reset style is to `reduce browser inconsistencies` in things like default line heights, margins and font sizes of headings etc.
+- The goal of a reset style is to `reduce browser inconsistencies` in things like default line heights, margins and font sizes of headings, etc.
 
 - **Common CSS Reset Properties**:
     - margin
@@ -1898,11 +1914,12 @@ body, h1, h2, h3, h4, h5, h6, p, input,li {
 
 > **Reference websites**: https://meyerweb.com/eric/tools/css/reset/, https://cssreset.com/
 
-Section 6. CSS Resources
-=====================   
+Section 6. CSS resources
+=====================
+
 ### 6.1. CSS Frameworks and grids
 - **CSS Frameworks**
-    - CSS Frameworks are pre-existing/pre-prepared libraries/files which provide a templating tools/system for site layout and design
+    - CSS Frameworks are pre-existing/pre-prepared libraries/files which provide a templating tools/systems for site layout and design
     
     - **Common CSS Frameworks contents**
         - CSS reset for browser default styling
@@ -1913,11 +1930,11 @@ Section 6. CSS Resources
         - Form & Table styling, Typography, CSS Grid
 
 #### CSS Grids
-- CSS Grids allows to `quickly build multi-column layouts`
+- CSS Grids allows to `quickly build multi-column layouts
 - CSS Grids mainly designed to make `building multi-column layouts easier`
-- Grids can be based on fixed, sizes, fluid layouts or aspect ratios
+- Grids can be based on fixed, sizes, fluid layouts, or aspect ratios
 - Consists of pre-build/readymade classes to define columns width and create layout easily
-- CSS Grids are part of bigger CSS Frameworks or may available alone as a grid library
+- CSS Grids are part of bigger CSS Frameworks or may be available alone as a grid library
 
 #### CSS Frameworks - Advantages
 - CSS Frameworks can save lots of time and work while designing large sites/apps
@@ -1995,6 +2012,7 @@ Editors range from basic text editors to full-featured web suites
     - http://pxtoem.com/
     - https://www.w3schools.com/tags/ref_pxtoemconversion.asp   
 
-Section 7. What's Next Step?
+Section 7. What's the next step?
 =====================
+
 Outstanding work! Thank You for looking into CSS3 Fundamentals. I hope you enjoyed and learned a lot out of it. I think Now you have better understandings of how CSS works and functions. To learn more about CSS specifications visit [All CSS specifications](https://www.w3.org/Style/CSS/specs.en.html). Your next step could be Mastering CSS3 Advanced features or look into [HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials), jump deeper with HTML5 Advanced topics or start with [JavaScript for beginners](https://github.com/dinanathsj29/javascript-beginners). Best of Luck! Happy Learning! 
